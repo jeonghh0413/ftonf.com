@@ -58,7 +58,7 @@
 
         <div id="ko" class="section active">
             <h1>개인정보 처리방침</h1>
-            <p><strong>최종 업데이트:</strong> 2026년 5월 15일</p>
+            <p><strong>최종 업데이트:</strong> 2026년 7월 6일 (rev. 3)</p>
             <p>ft.onf(이하 "당사")는 ft.onf 모바일 애플리케이션("서비스")을 운영하며, 이용자의 개인정보를 중요하게 생각하고 개인정보 보호법 등 관련 법령을 준수합니다.</p>
 
             <h2>1. 수집하는 개인정보 항목</h2>
@@ -70,6 +70,7 @@
                 <li><strong>언어 및 지역 정보:</strong> 서비스 제공을 위해 기기에 설정된 언어 및 지역 정보를 수집합니다 (현지화된 콘텐츠 및 기능 제공 목적)</li>
                 <li><strong>사진/미디어:</strong> 이용자가 직접 업로드하는 프로필 사진 또는 러닝 관련 이미지</li>
                 <li><strong>푸시 알림 토큰:</strong> 앱 알림 전송을 위한 FCM 토큰</li>
+                <li><strong>수면 소리 분류 정보:</strong> 수면 측정 중 감지된 소리에서 추출한 음향 특징(주파수 특성값 및 시간·주파수 스펙트로그램)과 분류 카테고리(자동 분류 결과 및 이용자가 직접 분류·수정한 라벨)를 수집합니다. 원본 녹음 파일은 서버로 전송하지 않고 이용자 기기에만 저장되며, 일정 기간(약 14일) 경과 후 자동으로 삭제됩니다. 서버에 저장되는 음향 특징은 주파수 에너지를 요약·가공한 형태로, 원래 음성으로 온전히 복원하기 어렵습니다.</li>
             </ul>
 
             <h2>2. 개인정보의 수집 및 이용 목적</h2>
@@ -82,6 +83,7 @@
                 <li>Apple Watch · Wear OS 연동을 통한 건강 데이터 수집 및 동기화</li>
                 <li>이용자의 언어 및 지역 설정에 맞는 콘텐츠 및 기능 제공</li>
                 <li>앱 성능 및 사용자 경험 개선</li>
+                <li>수면 소리 분류(코골이·이갈이 등) 정확도 개선, 자동 분류 기능 고도화 및 분류 모델 학습</li>
             </ul>
 
             <h2>3. 데이터 저장 및 보안</h2>
@@ -130,17 +132,26 @@
             <h2>9. 위치 정보 이용</h2>
             <p>앱은 러닝 경로 기록을 위해 GPS 기반의 위치 정보를 수집합니다. 위치 정보는 러닝 중에만 수집되며, 이용자가 위치 권한을 해제하면 수집이 중단됩니다.</p>
 
-            <h2>10. 개인정보 보호책임자</h2>
+            <h2>10. 마케팅 활용 (선택 동의)</h2>
+            <p>당사는 이용자가 사전에 동의한 경우에 한하여 아래의 마케팅 목적으로 개인정보를 이용할 수 있습니다.</p>
+            <ul>
+                <li>이벤트, 프로모션, 신규 기능 안내</li>
+                <li>맞춤형 콘텐츠 추천 및 광고성 정보 제공</li>
+                <li>푸시 알림을 통한 마케팅 메시지 전송</li>
+            </ul>
+            <p>마케팅 정보 수신은 선택 사항이며, 동의하지 않더라도 기본 서비스 이용에는 제한이 없습니다. 이용자는 언제든지 앱 내 <strong>마이페이지</strong>에서 마케팅 수신 동의 여부를 변경할 수 있으며, 변경 즉시 반영됩니다.</p>
+
+            <h2>11. 개인정보 보호책임자</h2>
             <p>성명: 허정현 (Jeonghyeon Heo)<br>
             이메일: <a href="mailto:ftonf@ftonf.com" class="email">ftonf@ftonf.com</a></p>
 
-            <h2>11. 개인정보 처리방침 변경</h2>
+            <h2>12. 개인정보 처리방침 변경</h2>
             <p>본 개인정보 처리방침은 법령이나 서비스의 변경사항을 반영하기 위해 수정될 수 있습니다. 변경 시 앱 내 공지 및 본 페이지를 통해 안내하겠습니다.</p>
         </div>
 
         <div id="en" class="section">
             <h1>Privacy Policy</h1>
-            <p><strong>Last Updated:</strong> May 15, 2026</p>
+            <p><strong>Last Updated:</strong> July 6, 2026 (rev. 3)</p>
             <p>ft.onf ("we", "us") operates the ft.onf mobile application ("the Service"). We value your personal information and comply with applicable laws, including the Personal Information Protection Act.</p>
 
             <h2>1. Information We Collect</h2>
@@ -152,6 +163,7 @@
                 <li><strong>Language and Region Information:</strong> We collect the language and region settings configured on your device for service provision (to deliver localized content and features)</li>
                 <li><strong>Photos / Media:</strong> Profile photos or running-related images uploaded by the user</li>
                 <li><strong>Push Notification Token:</strong> FCM token used for sending in-app notifications</li>
+                <li><strong>Sleep Sound Classification Data:</strong> Acoustic features (frequency-characteristic values and time–frequency spectrograms) extracted from sounds detected during sleep tracking, together with their category labels (both automatic classifications and labels you manually assign or correct). The original recording files are never transmitted to our servers; they are stored only on your device and are automatically deleted after a limited period (approximately 14 days). The acoustic features stored on our servers are summarized, processed representations of frequency energy and cannot be fully reconstructed back into the original audio.</li>
             </ul>
 
             <h2>2. How We Use Your Information</h2>
@@ -164,6 +176,7 @@
                 <li>Collecting and syncing health data via Apple Watch / Wear OS</li>
                 <li>Delivering content and features tailored to the user's language and region settings</li>
                 <li>Improving app performance and user experience</li>
+                <li>Improving the accuracy of sleep sound classification (e.g., snoring, teeth grinding), enhancing the automatic classification feature, and training classification models</li>
             </ul>
 
             <h2>3. Data Storage and Security</h2>
@@ -212,17 +225,26 @@
             <h2>9. Use of Location Information</h2>
             <p>The app collects GPS-based location information solely for recording running routes. Location is collected only while running and stops when you revoke the location permission.</p>
 
-            <h2>10. Data Protection Officer</h2>
+            <h2>10. Marketing Use (Optional)</h2>
+            <p>We may use your personal information for the following marketing purposes only with your prior consent:</p>
+            <ul>
+                <li>Notices about events, promotions, and new features</li>
+                <li>Personalized content recommendations and advertising information</li>
+                <li>Marketing messages sent via push notifications</li>
+            </ul>
+            <p>Receiving marketing communications is optional, and declining consent does not restrict your use of core services. You may change your marketing consent at any time from the <strong>My Page</strong> menu in the app, and the change takes effect immediately.</p>
+
+            <h2>11. Data Protection Officer</h2>
             <p>Name: Jeonghyeon Heo<br>
             Email: <a href="mailto:ftonf@ftonf.com" class="email">ftonf@ftonf.com</a></p>
 
-            <h2>11. Changes to This Policy</h2>
+            <h2>12. Changes to This Policy</h2>
             <p>We may update this Privacy Policy to reflect changes in law or our services. We will notify you of any changes through in-app notices and on this page.</p>
         </div>
 
         <div id="ja" class="section">
             <h1>プライバシーポリシー</h1>
-            <p><strong>最終更新日:</strong> 2026年5月15日</p>
+            <p><strong>最終更新日:</strong> 2026年7月6日 (rev. 3)</p>
             <p>ft.onf(以下「当社」)は、ft.onfモバイルアプリケーション(「本サービス」)を運営し、ユーザーの個人情報を重要視し、個人情報保護法など関連法令を遵守しています。</p>
 
             <h2>1. 収集する個人情報</h2>
@@ -234,6 +256,7 @@
                 <li><strong>言語および地域情報:</strong> サービス提供のため、デバイスに設定された言語および地域情報を収集します(ローカライズされたコンテンツおよび機能の提供目的)</li>
                 <li><strong>写真・メディア:</strong> ユーザーがアップロードするプロフィール写真またはランニング関連画像</li>
                 <li><strong>プッシュ通知トークン:</strong> アプリ通知送信のためのFCMトークン</li>
+                <li><strong>睡眠音の分類情報:</strong> 睡眠測定中に検出された音から抽出した音響特徴(周波数特性値および時間・周波数スペクトログラム)と分類カテゴリ(自動分類の結果、およびユーザーが自ら分類・修正したラベル)を収集します。元の録音ファイルはサーバーへ送信せず、ユーザーの端末にのみ保存され、一定期間(約14日)経過後に自動的に削除されます。サーバーに保存される音響特徴は周波数エネルギーを要約・加工した形式であり、元の音声へ完全に復元することは困難です。</li>
             </ul>
 
             <h2>2. 個人情報の利用目的</h2>
@@ -246,6 +269,7 @@
                 <li>Apple Watch · Wear OS連携による健康データの収集および同期</li>
                 <li>ユーザーの言語および地域設定に合わせたコンテンツおよび機能の提供</li>
                 <li>アプリのパフォーマンスおよびユーザー体験の改善</li>
+                <li>睡眠音の分類(いびき・歯ぎしりなど)の精度向上、自動分類機能の高度化および分類モデルの学習</li>
             </ul>
 
             <h2>3. データの保管およびセキュリティ</h2>
@@ -294,11 +318,20 @@
             <h2>9. 位置情報の利用</h2>
             <p>当アプリはランニングルート記録のためにGPSベースの位置情報を収集します。位置情報はランニング中のみ収集され、ユーザーが位置情報の権限を解除すると収集は停止されます。</p>
 
-            <h2>10. 個人情報保護責任者</h2>
+            <h2>10. マーケティング利用 (選択同意)</h2>
+            <p>当社は、ユーザーが事前に同意した場合に限り、以下のマーケティング目的で個人情報を利用することがあります。</p>
+            <ul>
+                <li>イベント、プロモーション、新機能のお知らせ</li>
+                <li>パーソナライズされたコンテンツの推薦および広告情報の提供</li>
+                <li>プッシュ通知によるマーケティング関連メッセージの送信</li>
+            </ul>
+            <p>マーケティング情報の受信は任意であり、同意しなくても基本サービスの利用に制限はありません。ユーザーはいつでもアプリ内<strong>「マイページ」</strong>からマーケティング受信同意の有無を変更でき、変更は即時反映されます。</p>
+
+            <h2>11. 個人情報保護責任者</h2>
             <p>氏名: 許定鉉 (Jeonghyeon Heo)<br>
             メール: <a href="mailto:ftonf@ftonf.com" class="email">ftonf@ftonf.com</a></p>
 
-            <h2>11. プライバシーポリシーの変更</h2>
+            <h2>12. プライバシーポリシーの変更</h2>
             <p>本プライバシーポリシーは、法令やサービスの変更を反映するために改定されることがあります。変更がある場合は、アプリ内通知および本ページにてお知らせします。</p>
         </div>
 
